@@ -1,0 +1,101 @@
+
+h1{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 3rem;
+    background-color: blanchedalmond;
+    padding-top: 1rem;
+}
+
+img{
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    }
+    
+.box{
+    width: auto;
+    height: 25rem;
+    margin: 1.25rem;
+    box-sizing: border-box;
+    flex-shrink: 1;
+    
+    }
+
+li{
+    display: inline-flex;
+    margin-right: 3rem;
+    
+}
+
+.navbar{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Thasadith', sans-serif;
+
+}
+
+.tagline{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+
+}
+
+.farmers{
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #f8bd28;
+    padding-top: 1rem;
+
+}
+
+.farmerbox{
+    background-color: #f8bd28;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    padding-bottom: 1.5rem;
+
+    }
+.f1{
+    width: auto;
+    background-color: #f8bd28;
+    height: 15.625rem;
+    margin: 1.5625rem;
+    padding-bottom: .3125rem;
+    box-sizing: border-box;
+    font-family: 'Thasadith', sans-serif;
+    text-align: center;
+    flex-shrink: 2;
+    }
+
+footer{
+    font-family: 'Thasadith', sans-serif;
+    text-align: right;
+    background-color: #1760ac;
+    color: blanchedalmond;
+    padding-top: 0.4375rem;
+    padding-bottom: 0.4375rem;
+    padding-right: 0.4375rem;
+    font-size: 0.8125rem;
+    letter-spacing: .1em;
+
+    }
